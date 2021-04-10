@@ -2,8 +2,6 @@
 
 #include <stdio.h>
 int main(){
-    freopen("data1.in", "r", stdin);
-    freopen("data1.out", "w", stdout);
     int t, cs = 0;
     scanf("%d", &t);
     while(t--){
