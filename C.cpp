@@ -15,5 +15,6 @@ int main()
     if(ans<25) printf("level 0\n");
     else if(ans<50) printf("level 1\n");
     else if(ans<75) printf("level 2\n");
-    else printf("level 3\n");		
+    else printf("level 3\n");
+    return 0;
 }
