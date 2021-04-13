@@ -8,7 +8,7 @@ int main(){
         char ch[100005];
         int n,i,cnt[30];
         scanf("%d%s",&n,ch);
-        for(i=0;i<25;i++)cnt[i]=0;
+        for(i=0;i<26;i++)cnt[i]=0;
         for(i=0;i<n;i++){
             cnt[ch[i]-'a']++;
         }
