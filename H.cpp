@@ -6,9 +6,9 @@ int main(){
     scanf("%d",&test);
     while(cases++!=test){
         char ch[100005];
-        int n,i,cnt[36];
+        int n,i,cnt[30];
         scanf("%d%s",&n,ch);
-        for(i=0;i<36;i++)cnt[i]=0;
+        for(i=0;i<25;i++)cnt[i]=0;
         for(i=0;i<n;i++){
             cnt[ch[i]-'a']++;
         }
