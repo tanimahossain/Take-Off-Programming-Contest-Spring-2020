@@ -1,8 +1,6 @@
 #include<stdio.h>
 
 int main() {
-	freopen("oneOdd_in.txt", "r", stdin);
-	freopen("oneOdd_out.txt", "w", stdout);
 
 	int a, b, c;
 	scanf("%d %d %d", &a, &b, &c);
